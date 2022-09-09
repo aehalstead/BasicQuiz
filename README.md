@@ -9,6 +9,7 @@ from Picker import QuestionPicker
 
 print("Game will begin!")
 doesUserWantsToPlay=input("Do you want to play? ")
+
 #Confirming Player wants to play
 if (doesUserWantsToPlay.lower() != "yes" ):
     quit()
